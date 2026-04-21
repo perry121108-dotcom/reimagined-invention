@@ -1,0 +1,33 @@
+# Claude Code 本地設定
+.claude/
+
+# 環境變數（含資料庫密碼、JWT secret）
+.env
+
+# 依賴套件
+node_modules/
+mobile/
+
+# 日誌
+*.log
+npm-debug.log*
+
+# 壓縮檔
+*.zip
+*.tar.gz
+
+# 系統檔
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+
+# 測試用暫存腳本（正式上線前可移除）
+run-sql.js
+test-colors.js
+test-v3.4.js
+test_acceptance.js
+test_cold_start.js
+test_market_reality.js

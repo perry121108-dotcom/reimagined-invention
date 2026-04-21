@@ -1,0 +1,22 @@
+{
+  "name": "wardrobe-ai",
+  "version": "1.0.0",
+  "description": "女性衣橱管理 App — 零 AI API 費用推薦引擎",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test-v3.4.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.3.2",
+    "jsonwebtoken": "^9.0.3",
+    "pg": "^8.20.0"
+  }
+}
