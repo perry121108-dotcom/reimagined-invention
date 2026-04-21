@@ -348,8 +348,8 @@ INSERT INTO silhouette_body_rules (body_type,category,recommended,avoid,reason) 
 ('upper_heavy','bottom',   ARRAY['wide_leg','a_line','straight'],ARRAY['pencil','slim_fit'],'下半身寬鬆平衡視覺'),
 ('pear_shape', 'top_outer',ARRAY['oversized','peplum','off_shoulder','cropped'],ARRAY['slim','wrap'],'上半身寬鬆轉移視覺焦點'),
 ('pear_shape', 'bottom',   ARRAY['a_line','wide_leg','maxi'],ARRAY['pencil','slim_fit','mini'],'A字裙自然遮蓋臀部線條'),
-('balanced',   'top_outer',ARRAY['oversized','regular','slim','cropped','wrap','peplum'],ARRAY[],'均衡體型可自由選擇'),
-('balanced',   'bottom',   ARRAY['wide_leg','straight','a_line','slim_fit','pencil','mini','maxi'],ARRAY[],'無特別限制');
+('balanced',   'top_outer',ARRAY['oversized','regular','slim','cropped','wrap','peplum'],ARRAY[]::text[],'均衡體型可自由選擇'),
+('balanced',   'bottom',   ARRAY['wide_leg','straight','a_line','slim_fit','pencil','mini','maxi'],ARRAY[]::text[],'無特別限制');
 
 -- ─────────────────────────────────────────
 -- 15. 廓形×場合適配表
