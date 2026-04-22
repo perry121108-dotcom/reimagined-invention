@@ -1,0 +1,12 @@
+{
+  "expo": {
+    "extra": {
+      "eas": {
+        "projectId": "c4ce43df-2d95-43de-bea4-1fd540fd0c3e"
+      }
+    },
+    "android": {
+      "package": "com.kadiuy.wardrobeai"
+    }
+  }
+}
