@@ -4,4 +4,5 @@ const routes  = require('./api/routes');
 const app     = express();
 app.use(express.json());
 app.use('/api', routes);
-app.listen(process.env.PORT || 3000, () => console.log('Server running on port ' + (process.env.PORT || 3000)));
+const PORT = process.env.PORT || 10000;
+app.listen(PORT, '0.0.0.0', () => console.log('Server running on port ' + PORT));
