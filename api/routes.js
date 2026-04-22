@@ -5,13 +5,16 @@
 
 const express       = require('express');
 const jwt           = require('jsonwebtoken');
-const bcrypt        = require('bcrypt');
+const bcrypt        = require('bcryptjs');
 const rateLimit     = require('express-rate-limit');
 const { Pool }      = require('pg');
 const { generateRecommendations } = require('../engine/recommender');
 
 const router = express.Router();
-const pool   = new Pool({ connectionString: process.env.DATABASE_URL });
+const pool   = new Pool({
+  connectionString: process.env.DATABASE_URL,
+  ssl: process.env.DATABASE_URL?.includes('supabase') ? { rejectUnauthorized: false } : false,
+});
 
 const ACCESS_SECRET  = process.env.JWT_SECRET;
 const REFRESH_SECRET = process.env.JWT_REFRESH_SECRET;
