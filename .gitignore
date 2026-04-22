@@ -6,7 +6,7 @@
 
 # 依賴套件
 node_modules/
-mobile/
+mobile/node_modules/
 
 # 日誌
 *.log
