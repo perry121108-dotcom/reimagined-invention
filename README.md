@@ -120,7 +120,7 @@ PORT=3000
 - [x] routes.js（完整 API + Rate Limit + JWT Refresh）
 - [x] 執行 schema_final.sql 建立資料庫
 - [x] 安裝依賴：npm install express pg bcrypt jsonwebtoken express-rate-limit
-- [x]驗收測試（見 TASK.md）
+- [x] 驗收測試（見 TASK.md）
 - [x] React Native 前端 — 衣橱頁（含 material_key / silhouette 下拉選單）
 - [x] React Native 前端 — 推薦頁
 - [x] React Native 前端 — 穿搭紀錄頁
