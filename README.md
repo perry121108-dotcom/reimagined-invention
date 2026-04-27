@@ -118,13 +118,13 @@ PORT=3000
 - [x] material_scorer.js（20種材質 + 4大法則）
 - [x] silhouette_scorer.js（廓形組合 + 體型修飾）
 - [x] routes.js（完整 API + Rate Limit + JWT Refresh）
-- [ ] 執行 schema_final.sql 建立資料庫
-- [ ] 安裝依賴：npm install express pg bcrypt jsonwebtoken express-rate-limit
-- [ ] 驗收測試（見 TASK.md）
-- [ ] React Native 前端 — 衣橱頁（含 material_key / silhouette 下拉選單）
-- [ ] React Native 前端 — 推薦頁
-- [ ] React Native 前端 — 穿搭紀錄頁
-- [ ] K-means 顏色辨識（200×200 + 取色框 + 二次確認）
-- [ ] expo-image-manipulator WebP 壓縮
-- [ ] 3 題色季快速測驗
+- [x] 執行 schema_final.sql 建立資料庫
+- [x] 安裝依賴：npm install express pg bcrypt jsonwebtoken express-rate-limit
+- [x]驗收測試（見 TASK.md）
+- [x] React Native 前端 — 衣橱頁（含 material_key / silhouette 下拉選單）
+- [x] React Native 前端 — 推薦頁
+- [x] React Native 前端 — 穿搭紀錄頁
+- [x] K-means 顏色辨識（200×200 + 取色框 + 二次確認）
+- [x] expo-image-manipulator WebP 壓縮
+- [x] 3 題色季快速測驗
 - [ ] App Store / Play Store 上架
